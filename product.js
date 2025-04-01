@@ -10,6 +10,7 @@ function getQueryParam(name) {
   if (product) {
     container.innerHTML = `
       <h1>${product.name}</h1>
+      <img src="${product.image}" alt="${product.name}" style="max-width:300px; border-radius:10px;">
       <p>${product.description}</p>
       <p><strong>Price:</strong> ${product.price}</p>
     `;

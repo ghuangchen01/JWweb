@@ -8,9 +8,11 @@ for (const key in products) {
   card.className = "product-card";
 
   card.innerHTML = `
+    <img src="${product.image}" alt="${product.name}">
     <h3>${product.name}</h3>
-    <p>Click to learn more →</p>
+    <p>${product.price}</p>
   `;
 
   grid.appendChild(card);
 }
+
