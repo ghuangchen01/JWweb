@@ -9,7 +9,7 @@ const products = {
       name: "Cute Notebook",
       description: "This notebook has 100 pages and is perfect for journaling or school notes.",
       price: "$10.00",
-      image: "images/notebook.jpg"
+      image: "images/necklacce.jpg"
     }
   };
   
